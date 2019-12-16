@@ -5,12 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:server": "nodemon ./server",
-    "start:dev": "webpack -d --watch",
-    "db:start": "mongod",
-    "db:seed": "node ./server/db/seed-data.js"
+    "start:server": "nodemon ./server"
   },
-  "author": "Aria Keshmiri",
+  "author": "Hunter Treadaway",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.7.2",

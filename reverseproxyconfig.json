@@ -14,8 +14,15 @@
     },
     {
       "route": "/writereview",
-      "method": "POST",
       "address": "http://localhost:3000/writereview"
+    },
+    {
+      "route": "/yes",
+      "address": "http://localhost:3000/yes"
+    },
+    {
+      "route": "/no",
+      "address": "http://localhost:3000/no"
     },
     {
       "route": "/hunter_all_products",
